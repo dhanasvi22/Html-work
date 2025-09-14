@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admition process form</title>
+</head>
+
+<body>
+    <h1><b><i>College Admition form </i></b></h1>
+    <form action="http://127.0.0.1:5500/SUBMIT.HTML">
+        <!--fildset ke Andar sari information dalni pdti hai-->
+        <br>
+        <fieldset>
+            <h2></h2>
+            <legend> Personal Details</legend>
+            <label for="n">Student Name</label>
+            <input type="text" id="n" placeholder="Enter Student Nane">
+            <br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="n" placeholder="Enter DOB">
+            <br>
+            <h3>Gender</h3>
+            <label for="radio">male</label>
+            <input type="radio" id="radio" value="Male"><br>
+            <label for="f">female</label>
+            <input type="radio" id="f" value="Female">
+            <br>
+
+            <label for="email">Email ID</label>
+            <input type="email" id="n" placeholder="Enter Email id">
+            <br>
+            <label for="num">Mobile Number</label>
+            <input type="number" id="num" placeholder="Enter Mobile Number">
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <h2></h2>
+            <legend>Cource Details</legend>
+            </h2>
+
+            <p>Select Cource</p>
+            <label for="Cource">BBA</label value="BBA">
+            <input type="radio" name="c" id="Cource">
+            <br>
+            <label for="Cource1">BCA</label value="BCA">
+            <input type="radio" name="c" id="Cource1">
+            <br>
+            <label for="Cource2">MBA</label value="MBA">
+            <input type="radio" name="c" id="Cource2">
+            <br>
+            <label for="Cource3">MCA</label value="MCA">
+            <input type="radio" name="c" id="Cource3">
+            <p>Mode OF Study</p>
+            <input type="radio" name="mode" id="m">
+            <label for="m">Online</label>
+            <br>
+            <input type="radio" name="mode" id="o">
+            <label for="o">Offline</label>
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <h2></h2>
+            <legend>Educational Details</legend>
+            </h2>
+            <label for="sch">Previous School/College</label>
+            <input type="text" id="sch" value="v" placeholder="Enter Previous College Name">
+
+            <br>
+            <label for="per">12th percentage</label>
+            <input type="number" name="percent" id="per" placeholder="Enter 12th percentage">
+            <br>
+            <label for="per1">10th percentage</label>
+            <input type="number" name="percent" id="per1" placeholder="Enter 10th percentage">
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2></h2>
+            <legend> Document </legend>
+            </h2>
+
+            <label for="doc">10th Marksheet</label>
+            <input type="file" name="d" id="doc">
+
+            <br>
+            <label for="doc1">12th marksheet</label>
+            <input type="file" name="d" id="doc1">
+
+
+            <br>
+            <label for="doc2">Adhar Card</label>
+            <input type="file" name="d" id="doc2">
+
+            <br>
+
+            <label for="doc3">photo</label>
+            <input type="file" name="d" id="doc3">
+
+
+
+
+        </fieldset>
+        <input type="button" id="s" value="submit it!">
+        <label for="s"></label>
+    </form>
+</body>
+
+</html>

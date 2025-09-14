@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL FORM</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/SUBMIT.HTML">
+<h1> <b><u>Patient Report Form</u></b>
+</h1>
+        <fieldset>
+            <legend>
+                patient details
+                        </legend>
+
+
+            <label for="n">Patient Name</label>
+            <input type="text" id="n" placeholder="Enter Student Nane">
+            <br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="n" placeholder="Enter DOB">
+            <br>
+            Gender <br>
+
+            <label for="radio">male</label>
+            <input type="radio" id="radio" value="Male"><br>
+            <label for="f">female</label>
+            <input type="radio" id="f" value="Female">
+            <br>
+
+            <label for="email">Email ID</label>
+            <input type="email" id="n" placeholder="Enter Email id">
+            <br>
+            <label for="num">Mobile Number</label>
+            <input type="number" id="num" placeholder="Enter Mobile Number">
+<br>
+            <label for="blood">Select blood Group</label>
+            <select name="b" id="blood">
+                <option value="">A+</option>
+                <option value="">A-</option>
+                <option value="">B+</option>
+                <option value="">B-</option>
+                <option value="">AB</option>
+                     <option value="">O</option>
+            </select>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Medical information</legend>
+            <input type="radio" name="medical" id="1" value="OPD">
+            <label for="1">OPD</label>
+            <br>
+            <input type="radio" name="medical" id="2" value="IPD">
+            <label for="2">IPD</label>
+            <br>
+            <input type="radio" name="medical" id="3" value="Emergency">
+            <label for="3">Emergency</label> 
+<br>
+            Department
+          <select name="s" id="1">
+            <downdrop>
+            <option value="">Genral Medicine</option>
+            <option value="">Cardiology</option>
+            <option value="">Gynecology</option>
+            <option value="">Neurology</option>
+            <option value="">Emergency</option>
+            </downdrop>
+          </select>
+
+        </fieldset>
+
+        <fieldset>
+            <h2>Upelode your document</h2>
+            <legend> Document </legend>
+            </h2>
+
+            <label for="doc">Paymeny recipt</label>
+            <input type="file" name="d" id="doc">
+
+            <br>
+            <label for="doc1">Medical File</label>
+            <input type="file" name="d" id="doc1">
+
+
+            <br>
+            <label for="doc2">Recent Medical File</label>
+            <input type="file" name="d" id="doc2">
+
+            <br>
+
+            <label for="doc3"></label>
+            <input type="file" name="d" id="doc3">
+
+
+
+
+        </fieldset>
+        <input type="submit" value="submit it!!">
+      
+    </form>
+</body>
+</html>
